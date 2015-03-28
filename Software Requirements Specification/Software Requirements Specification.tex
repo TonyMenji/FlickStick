@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[lmargin=2.54cm, rmargin=2.54cm,tmargin=2.54cm,bmargin=2.54cm]{geometry}
+\usepackage{doc}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{setspace}
+
+\title{Flick Stick Soccer Requirements Specification Document}
+\author{Anthony Menjivar}
+\date{February 11th 2015}
+
+\begin{document}
+
+\maketitle
+
+\section{5.1 Requirements Introduction}
+This Software Requirements Specification (SRS) documents the requirements for the Android Mobile Soccer Game called FlickStick Soccer.
+\vspace{2mm}
+
+The FlickStick Soccer game is an android based game consisting of the game play of a soccer game collided with a touch and flick feel of touch screen mobile phones or tablets. It consists of the menu screens and game screens where the user will choose what to play within the game and then the user will actually play the game (which consists of flicking the ball within the game).
+\vspace{2mm} 
+
+The remainder of this document is structured as follows:
+\begin{enumerate}
+\item 5.2 Functional Requirements
+\item 5.3 Performance Requirements
+\item 5.4 Environment Requirements
+\end{enumerate} 
+
+\section{5.2 Functional Requirements}
+The function of the FlickStick Soccer game is to allow a user to access the menu upon opening the game. The user will then choose to play the different modes of the game that there will be which will either prompt other menu screens and then take the user to the game screen or take the user straight the game screen. At this point the game will allow the user to flick the ball around and then keep going depending of on the mode of game play chosen by the user. One the game is done, the user will have options t play again or go back to the menu screen.
+\vspace{2mm}
+
+These include the functionality of the game: 
+\begin{enumerate}
+\item Graphical User Interface (GUI)
+\vspace{2mm}
+
+The GUI will present multiple screen to the user including the menu screen, game screen, load screen and any other screens having to do with play selection. The GUI will render all necessary parts to be able to play the game and will render throughout the game in order to show the games progress.
+\end{enumerate}
+
+\section{5.3 Performance Requirements}
+\begin{enumerate}
+\item Start Game
+	\begin{enumerate}
+	\item Game Load screen shall display
+	\item Game Menu shall display seconds after Load Screen
+	\end{enumerate}
+\item Choose Online Play
+	\begin{enumerate}
+	\item Game shall look for online players to connect to
+	\item Game shall Connect to a random player of equal or close to equal level as user
+	\item Game shall load game play
+	\item Game Scren shall show and let players play the game
+	\item will mirror game action on both phone/tablet
+	\end{enumerate}
+\item  Choose Robot Play
+	\begin{enumerate}
+	\item Game shall show a choose difficulty Screen
+	\item User will choose a difficulty
+	\item Game shall update robot to difficulty level while loading the game screen
+	\item Game shall show Game screen and allow user to play the game
+	\end{enumerate}
+\item Choose Double Play
+	\begin{enumerate}
+	\item Game shall load game screen
+	\item Game shall allow User to play will 2 people on the device
+	\end{enumerate}
+\item Choose Tournament Play
+	\begin{enumerate}
+	\item Game shall prompt screen for robot difficulty and amount of teams
+	\item Game shall show tournament bracket
+	\item Game shall load all teams and robot difficulty along with game screen
+	\item Game shall allow User to play game
+	\item After each Game the updated bracket with all winners shall be shown
+	\end{enumerate}
+\end{enumerate} 
+
+\section{5.4 Environments Requirement}
+Here are all the requirements in order to run FlickStick Soccer.
+\vspace{2mm}
+
+Hardware Minimum Requirements
+\begin{enumerate}
+\item Device - Phone  or Tablet running Android 2.3 or above
+\item Processor - 1 GHz single-core ARM Cortex-A8
+\item Hard Drive Space - 4 GB
+\item RAM - 512 MB RAM
+\item Display - 800x480, 0.37 megapixels
+\item Graphics Processing Unit - 200 MHz PowerVR SGX 540 GPU
+\end{enumerate}
+\vspace{2mm}
+
+Software Minimum Requirements
+\begin{enumerate}
+\item Operation System - Android 2.3 GingerBread or Above
+\item Compiler -- Android Studio
+\item Graphics - Adobe PhotoShop, Paint
+\item Sound -  bfxr.net
+\end{enumerate}
+
+\end{document}
